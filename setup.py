@@ -5,10 +5,10 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="py_utility",
-    version="1.0.0",
+    version="2.0.0",
     author="Tinnawong saelao",
     author_email="tinnawong2010@hotmail.com",
-    description="python utility",
+    description="python utility for research",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),

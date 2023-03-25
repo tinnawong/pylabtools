@@ -1,4 +1,7 @@
 main.py
+*.log
+test.py
+
 __pycache__
 build
 dist
