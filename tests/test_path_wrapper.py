@@ -1,7 +1,7 @@
 import os
 import tempfile
 import unittest
-from py_utility import path_wrapper as pw
+from pylabtools import path_wrapper as pw
 class TestFileOperations(unittest.TestCase):
 
     def setUp(self):

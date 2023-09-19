@@ -23,16 +23,16 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="py_utility",
+    name="pylabtools",
     version=remote_version,
     author="Tinnawong saelao",
     author_email="tinnawong2010@hotmail.com",
     description="python utility for research",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tinnawong/py_utility",
+    url="https://github.com/tinnawong/pylabtools",
     packages=setuptools.find_packages(),
-    package_data={"py_utility": ["VERSION"]},
+    package_data={"pylabtools": ["VERSION"]},
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import mock_open, patch
-from py_utility import file_wrapper as fw
+from pylabtools import file_wrapper as fw
 
 class TestFileFunctions(unittest.TestCase):
 

@@ -1,13 +1,13 @@
-# py_utility
+# pylabtools
 
-`py_utility` is a Python utility library that provides various helper functions for file and directory manipulation, text formatting, and logging.
+`pylabtools` is a Python utility library that provides various helper functions for file and directory manipulation, text formatting, and logging.
 
 ## Installation
 
-You can install py_utility using pip:
+You can install pylabtools using pip:
     
 ```bash
-pip install py_utility
+pip install pylabtools
 ```
 
 ## Testing
