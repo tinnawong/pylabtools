@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, mock_open
 import logging
-from pylabtools import log_wropper as lw
+from pylabtools import log_wrapper as lw
 
 class TestLoggerSetup(unittest.TestCase):
 
