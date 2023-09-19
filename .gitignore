@@ -1,7 +1,7 @@
 main.py
+*.log
+test.py
+
 __pycache__
 build
 dist
-tin_utility.egg-info
-text.txt
-py_utility.egg-info
