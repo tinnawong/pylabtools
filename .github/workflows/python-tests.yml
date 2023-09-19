@@ -43,4 +43,4 @@ jobs:
       - name: Install
         run: |
           python setup.py sdist bdist_wheel
-          pip install dist/py_utility-*.whl
+          pip install dist/pylabtools-*.whl
