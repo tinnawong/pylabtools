@@ -10,6 +10,14 @@ You can install py_utility using pip:
 pip install py_utility
 ```
 
+## Testing
+
+You can run the unit tests using pytest:
+
+```bash
+python -m unittest discover tests
+```
+
 ## Contributing
 
 If you find a bug or have an idea for a new feature, please open an issue on the GitHub repository. Pull requests are welcome!
