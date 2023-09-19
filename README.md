@@ -1,6 +1,6 @@
 # pylabtools
 
-`pylabtools` is a Python utility library that provides various helper functions for file and directory manipulation, text formatting, and logging.
+`pylabtools` is a Python utility library that provides various helper functions:
 
 ## Installation
 
@@ -12,10 +12,14 @@ pip install pylabtools
 
 ## Testing
 
-You can run the unit tests using pytest:
+You can run the unit tests using the following commands:
 
 ```bash
 python -m unittest discover tests
+
+or 
+
+pytest tests
 ```
 
 ## Contributing
