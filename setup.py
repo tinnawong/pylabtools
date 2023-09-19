@@ -8,7 +8,7 @@ remote_version = (
     .strip()
 )
 
-if not remote_version.startswith("v"):
+if remote_version.startswith("v"):
     if "-" in remote_version:
         v,i,s = remote_version.split("-")
         remote_version = v + "+" + i + ".git." + s
