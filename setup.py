@@ -40,5 +40,6 @@ setuptools.setup(
     ],
     install_requires= [
         "minio==7.1.15",
+        "tqdm==4.64.1"
     ],
 )
