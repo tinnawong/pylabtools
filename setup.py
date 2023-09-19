@@ -8,13 +8,16 @@ remote_version = (
     .strip()
 )
 
-if remote_version.startswith("v"):
-    if "-" in remote_version:
-        v,i,s = remote_version.split("-")
-        remote_version = v + "+" + i + ".git." + s
+if "-" in remote_version:
+    # when not on tag, git describe outputs: "1.3.3-22-gdf81228"
+    # pip has gotten strict with version numbers
+    # so change it to: "1.3.3+22.git.gdf81228"
+    # See: https://peps.python.org/pep-0440/#local-version-segments
+    v,i,s = remote_version.split("-")
+    remote_version = v + "+" + i + ".git." + s
 
-    assert "-" not in remote_version
-    assert "." in remote_version
+assert "-" not in remote_version
+assert "." in remote_version
 
 with open("README.md", "r") as f:
     long_description = f.read()
