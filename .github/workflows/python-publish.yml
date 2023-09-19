@@ -7,7 +7,7 @@ on:
   release:
     types: [published]
   push:
-    tags: [feature-*]
+    tags: [feature-**]
 
 jobs:
   deploy:
